@@ -1,7 +1,8 @@
+
 # c++ tutorial
 
 `auto compile & run`
-``` nodemon --watch tutorial.cpp --exec 'g++ -o tutorial tutorial.cpp && tutorial.exe' ```
+`nodemon --watch tutorial.cpp --exec 'g++ -o tutorial tutorial.cpp && tutorial.exe'`
 
 - Basics
   - Variables
