@@ -1,0 +1,2 @@
+10 Laptop 5
+20 Phone 6
