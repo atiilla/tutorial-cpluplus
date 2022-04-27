@@ -1,5 +1,5 @@
 
-# c++ tutorial
+# c++ tutorial and c examples
 
 `auto compile & run`
 `nodemon --watch tutorial.cpp --exec 'g++ -o tutorial tutorial.cpp && tutorial.exe'`
