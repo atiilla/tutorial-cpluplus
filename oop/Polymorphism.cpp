@@ -50,11 +50,23 @@ public:
     }
 };
 
+class Utils{
+
+    public:
+    void getMemoryAddress(string data)
+    {
+        cout << "Memory Address: " << &data << endl;
+    }
+
+};
+
 int main()
 {
     cout << "Polymorphism example" << endl;
 
     Admin admin("root", "123456", "admin");
     admin.printUser();
+    Utils utils;
+    utils.getMemoryAddress(admin.username);
     return 0;
 }
